@@ -4,7 +4,7 @@
 //Multiprocessing would be helpful for CPU-intensive tasks because it seperate processes...
 // that use multiple CPU cores more effectively
 // Because we are involving disk I/O, multithreading is faster.
-
+// TIME WAS CUT IN HALF USING MULTITHREADING (FROM 511 milliseconds to 281 milliseconds)
 #include <stdio.h> //function like printf, scanf..
 #include <stdlib.h>// functions like malloc, free...
 #include <string.h>
